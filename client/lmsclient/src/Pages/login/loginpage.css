@@ -1,0 +1,11 @@
+.bg-with-image {
+    background-image: url('./asset/Vector (1).png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #019785; 
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,42 @@
+.background-container {
+    background-image: url('./asset/Vector (1).png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 980px;
+    width: 710px;
+    background-color: rgba(77, 187, 168, 0.3);
+    margin: 60px;
+   
+    box-sizing: border-box;
+    border: 10px;
+    border-color: white;
+}
+.quote-text {
+    color: white;
+    font-size: 44px;
+   
+}
+.quotes-dots {
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .dot {
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .dot.active {
+    width: 24px;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+
+  
